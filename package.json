@@ -1,0 +1,24 @@
+{
+    "name": "superscale-interview",
+    "description": "Package for finding awesome backend engineers!",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "build": "tsc --project ./",
+        "eslint": "eslint --ext .ts .",
+        "eslint:fix": "eslint --ext .ts --fix .",
+        "test": "jest --config=jest.json"
+    },
+    "dependencies": {
+        "ts-node": "^10.0.0",
+        "typescript": "^4.5.0"
+    },
+    "devDependencies": {
+        "@types/jest": "^27.4.0",
+        "@typescript-eslint/eslint-plugin": "^5.12.1",
+        "@typescript-eslint/parser": "^5.12.1",
+        "eslint": "^7.28.0",
+        "jest": "^27.4.7",
+        "ts-jest": "^27.1.2"
+    }
+}
